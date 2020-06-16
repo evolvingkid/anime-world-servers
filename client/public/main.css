@@ -1,0 +1,75 @@
+.sideNavBar {
+  height: 100vh;
+  width: 200px;
+  padding: 10px;
+}
+.navTopBar {
+  margin-top: 30px;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+.homePageCover {
+  background-image: url("./images/homePagesvg1.svg");
+  background-size: cover;
+  height: 100vh;
+  background-position: right;
+}
+.marginHome {
+  margin-top: 40%;
+}
+
+.form-signin{
+  margin: 0 auto;
+  width:  330px;
+  margin-top: 10%;
+}
+@media screen and (max-width: 1497px) {
+  .homePageCover {
+    background-image: url("../images/homePagesvg1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: right;
+  }
+  .marginHome {
+    margin-top: 50%;
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  .homePageCover {
+    background-image: url("../images/homePagesvg1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: right;
+  }
+  .marginHome {
+    margin-top: 65%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .homePageCover {
+    display: none;
+  }
+  .marginHome {
+    margin-top: 40%;
+  }
+  .homeColMain{
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .marginHome {
+    margin-top: 68%; 
+  }
+}
+@media screen and (max-width: 482px) {
+  .marginHome {
+    margin-top: 74%;
+  }
+}
