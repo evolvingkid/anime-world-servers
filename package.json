@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "anilist-api-pt": "^1.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.3",
     "config": "^3.3.1",
     "express": "^4.17.1",
