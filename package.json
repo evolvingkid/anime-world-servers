@@ -14,7 +14,7 @@
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
     "config": "^3.3.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-validator": "^6.4.0",
     "firebase-admin": "^8.10.0",
     "firebase-functions": "^3.3.0",
